@@ -18,7 +18,7 @@
     .menu a:hover{
       background-color: grey;
     }
-    @media screen and(max-width:600px){
+    @media screen and (max-width:600px){
       .menu{
           flex-direction: column;
           padding: 10px;
