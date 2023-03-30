@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>shakil</title>
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="RWD\mobile.css"> -->
     <style>
 
     .menu {
@@ -30,7 +31,26 @@
         border-radius: 10px;
       }
     }
+    *{
+      box-sizing: border-box;
+    }
+    @media screen and (min-width: 600px) {
+      body{
+        background-color: brown;
+      }
+      h1{
+        color:white;
+      }
+      h2{
+        display: none;
+      }
+      @media screen and (min-width: 900px){
+        body{
+          background-color: green;
+        }
+      }
 
+    }
 
     </style>
   </head>
@@ -41,6 +61,10 @@
   <a href="">tutorials</a>
   <a href="">contact us</a>
 
+</div>
+<div>
+  <h1>Bangladesh</h1>
+<h2>Responsive web design</h2>
 </div>
   </body>
 </html>
